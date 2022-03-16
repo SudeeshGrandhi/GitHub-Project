@@ -1,0 +1,1234 @@
+.check {
+  color: white;
+  border-left-style: dotted;
+}
+body {
+  box-sizing: border-box;
+}
+.head1 {
+  border: 2px solid aqua;
+  margin: 25px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  visibility: hidden;
+}
+.div1 {
+  width: 400px;
+  border: 2px solid red;
+  padding: 25px;
+  margin-left: 25px;
+  outline: 10px solid green;
+  text-transform: capitalize;
+  text-indent: 29px;
+  font-variant: small-caps;
+  margin-bottom: 50px;
+}
+.link {
+  text-decoration: none;
+  width: 250px;
+  display: block;
+  margin: 25px;
+  overflow: hidden;
+}
+.link:hover {
+  background-color: red;
+}
+.tl {
+  color: green;
+  text-decoration: none;
+}
+.tl:hover {
+  text-decoration: underline;
+}
+.lb {
+  border: 2px solid green;
+  margin: 25px;
+  display: block;
+  padding: 10px;
+  width: 100px;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+.lb:hover {
+  background-color: green;
+}
+.lb1 {
+  margin: 25px;
+  display: block;
+  padding: 10px;
+  width: 100px;
+  text-decoration: none;
+  text-align: center;
+  background-color: tomato;
+  color: white;
+}
+.lb1:hover {
+  background-color: red;
+}
+/*  Links format  */
+.lb2:link {
+  background-color: red;
+}
+.lb2:visited {
+  background-color: green;
+}
+.lb2:hover {
+  background-color: blue;
+}
+.lb2:active {
+  background-color: pink;
+}
+.bc:link {
+  color: #ff0000;
+  font-weight: bold;
+  text-decoration: none;
+}
+.bc:visited {
+  color: #0000ff;
+}
+.bc:hover {
+  background-color: green;
+  color: white;
+}
+
+.ctc {
+  background-color: indianred;
+  padding: 20px;
+  padding-left: 50px;
+}
+.ctc li {
+  background-color: khaki;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.tsi {
+  border-collapse: collapse;
+  width: 80%;
+}
+.tsi th,
+td {
+  border: 2px solid lightgray;
+}
+.tsi th {
+  background-color: green;
+  padding: 10px;
+}
+.tsi tr:nth-child(even) {
+  background-color: rgb(240, 240, 240);
+}
+.tsi tr:hover {
+  background-color: gray;
+}
+
+.max3 {
+  position: relative;
+  border: 3px solid green;
+  height: 100px;
+  margin-top: 50px;
+  padding: 25px;
+  background-color: aqua;
+  margin-bottom: 20px;
+}
+.max3 .hi {
+  position: absolute;
+  border: 1px solid blue;
+  width: 35px;
+  top: 40px;
+  left: 150px;
+  color: yellow;
+  background-color: black;
+  padding: 10px;
+}
+.max3 .hello {
+  border: 5px solid red;
+  width: 50px;
+  padding: 10px;
+  position: absolute;
+  right: 10px;
+}
+.tree {
+  position: relative;
+}
+.topl {
+  position: absolute;
+  top: 270px;
+  color: white;
+  left: 10px;
+}
+.box {
+  position: relative;
+  margin-bottom: 150px;
+}
+.z1 {
+  position: absolute;
+  border: 2px solid black;
+  width: 300px;
+  height: 100px;
+}
+.z3 {
+  position: absolute;
+  background-color: lightgray;
+  width: 250px;
+  height: 60px;
+  left: 60px;
+  top: 40px;
+  z-index: 1;
+}
+.z2 {
+  position: absolute;
+  background-color: lightgreen;
+  width: 80px;
+  height: 80px;
+  left: 260px;
+  top: -30px;
+}
+.os {
+  background-color: lightgreen;
+  width: 600px;
+  height: 100px;
+  overflow-y: scroll;
+}
+.abs {
+  border: 2px solid green;
+  width: 500px;
+  position: relative;
+  padding-right: 150px;
+}
+.tajm {
+  position: absolute;
+  left: 530px;
+  top: 0px;
+}
+.para + p {
+  background-color: yellow;
+}
+
+.tada {
+  background-color: teal;
+  width: 150px;
+  height: 25px;
+  color: aliceblue;
+  padding: 5px;
+  display: none;
+}
+.hove:hover .tada {
+  display: block;
+}
+.inp:hover {
+  background-color: black;
+  color: white;
+}
+::marker {
+  color: red;
+  size: 100px;
+}
+/*************CSS Advanced ********************/
+.bradius {
+  margin-top: 50px;
+  border: 2px solid green;
+  width: 150px;
+  height: 50px;
+  border-bottom-right-radius: 35px;
+  padding: 15px;
+  background-color: violet;
+  border-bottom-left-radius: 35px;
+}
+.brimage {
+  margin-top: 50px;
+  border: 2px solid green;
+  width: 150px;
+  height: 50px;
+  border-image-source: url(../logo.jpg);
+  border-image-repeat: stretch;
+  border-image-slice: 50;
+}
+.backimage {
+  margin-top: 50px;
+  border: 30px dotted green;
+  padding: 25px;
+  background-image: url(../tree.jpg), url(../tajmahal.jpg);
+}
+.keywords {
+  margin-top: 30px;
+  width: 500px;
+  height: 200px;
+  border: 2px solid red;
+  text-align: center;
+  position: relative;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(0, 0, 0),
+    rgb(255, 255, 255)
+  );
+}
+.kyw {
+  margin: auto;
+  padding-top: 95px;
+  color: white;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 20px;
+}
+.keywords1 {
+  margin-top: 30px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid red;
+  text-align: center;
+  position: relative;
+  background-image: conic-gradient(
+    red 0deg,
+    red 90deg,
+    yellow 90deg,
+    yellow 180deg,
+    green 180deg,
+    green 270deg,
+    blue 270deg,
+    blue 360deg
+  );
+  border-radius: 50%;
+}
+.kyw1 {
+  margin: auto;
+  padding-top: 35px;
+  color: blueviolet;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 20px;
+}
+.texteff {
+  margin-top: 20px;
+  width: 200px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.4),
+    0px 6px 20px 0px rgba(0, 0, 0, 0.2);
+}
+.one {
+  background-color: lightgreen;
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+.jan {
+  text-align: center;
+  height: 40px;
+  padding-top: 15px;
+}
+.seffec {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: yellow;
+  text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;
+}
+.bshad {
+  background-color: yellow;
+  padding: 25px;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.8) inset,
+    10px 10px 4px rgba(0, 0, 0, 0.8) inset;
+}
+.jat {
+  width: 250px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2),
+    0px 6px 18px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.norway {
+  padding: 10px;
+}
+.textra {
+  width: 200px;
+  border: 1px solid black;
+  word-break: break-all;
+}
+.drot {
+  background-color: red;
+  width: 120px;
+  height: 55px;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  opacity: 0.4;
+}
+.drot1 {
+  background-color: red;
+  width: 120px;
+  height: 55px;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  transform: translate(15px, -35px);
+  opacity: 0.8;
+}
+.drot0 {
+  position: relative;
+}
+.drot2 {
+  background-color: red;
+  width: 120px;
+  height: 55px;
+  padding: 5px;
+  color: black;
+  font-weight: bold;
+  opacity: 0.4;
+}
+.drot3 {
+  background-color: red;
+  width: 120px;
+  height: 55px;
+  padding: 5px;
+  color: black;
+  font-weight: bold;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  transform: rotate(45deg);
+}
+.scc {
+  width: 45px;
+  height: 25px;
+  background-color: olive;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-left: 50px;
+  border-radius: 5px;
+  transform: scale(1, 1);
+  transition: transform 2s;
+}
+.scc:hover {
+  transform: scale(2, 2);
+}
+.scc1 {
+  width: 45px;
+  height: 35px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-left: 100px;
+  border-radius: 5px;
+  transform: rotateY(0deg);
+  transition: transform 2s, width 2s, height 2s;
+}
+.scc1:hover {
+  transform: rotate(180deg);
+  width: 90px;
+  height: 70px;
+}
+.scc2 {
+  width: 45px;
+  height: 25px;
+  background-color: rgb(161, 161, 31);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  animation-name: first;
+  animation-duration: 3s;
+  position: relative;
+}
+@keyframes first {
+  0% {
+    transform: rotate(25deg);
+    background-color: mediumspringgreen;
+    left: 0px;
+  }
+  50% {
+    left: 1000px;
+    top: 0px;
+    background-color: mediumspringgreen;
+    transform: rotate(25deg);
+  }
+  60% {
+    transform: rotate(360deg);
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+.scc3 {
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  animation-name: second;
+  animation-duration: 4s;
+  position: relative;
+  animation-iteration-count: 1;
+}
+@keyframes second {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    top: 0;
+    left: 100px;
+    background-color: green;
+  }
+  50% {
+    top: 100px;
+    left: 100px;
+    background-color: yellow;
+  }
+  75% {
+    top: 100px;
+    left: 0px;
+    background-color: blue;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    background-color: red;
+  }
+}
+.scc4 {
+  width: 45px;
+  height: 25px;
+  background-color: rgb(161, 161, 31);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: width 2s, height 2s, background-color 2s, font-size 2s;
+}
+.scc4:hover {
+  background-color: brown;
+  width: 90px;
+  height: 50px;
+  font-size: 25px;
+}
+.tooltip {
+  position: relative;
+  border-bottom: 1px dotted black;
+  display: inline-block;
+}
+.tooltiptext {
+  width: 120px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  visibility: hidden;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.ttp {
+  position: relative;
+  border-bottom: 1px dotted blue;
+  display: inline-block; /*SO that we can center element and avoid magin through out*/
+}
+.ttptext {
+  background-color: black;
+  color: white;
+  padding: 5px 0;
+  border-radius: 5px;
+  width: 120px;
+  text-align: center;
+  position: absolute;
+  visibility: hidden;
+  z-index: 1;
+  right: 105%;
+  top: -5px;
+}
+.ttp:hover .ttptext {
+  visibility: visible;
+}
+
+.ttp1 {
+  border-bottom: 1px dotted black;
+  position: relative;
+  display: inline-block;
+}
+.ttptext1 {
+  background-color: black;
+  color: white;
+  position: absolute;
+  width: 120px;
+  border-radius: 5px;
+  padding: 5px 0px;
+  position: absolute;
+  top: 105%;
+  right: -10%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 2s;
+}
+.ttp1:hover .ttptext1 {
+  visibility: visible;
+  opacity: 1;
+}
+
+.mhalt {
+  display: block;
+  width: 300px;
+}
+.jmah {
+  text-align: center;
+  padding: 10px;
+}
+.ajal {
+  width: 300px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.4),
+    0px 8px 18px 0px rgba(0, 0, 0, 0.2);
+  margin-left: auto;
+  margin-right: auto;
+}
+.ajal1 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+.hworld {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: royalblue;
+  opacity: 0;
+}
+.text {
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+.ajal1:hover .hworld {
+  opacity: 1;
+}
+.wert {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+.helloworld {
+  position: absolute;
+  top: -150px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 150px;
+  width: 150px;
+  background-color: rgb(25, 181, 209);
+  opacity: 0;
+  transition: 0.5s;
+}
+.txt {
+  text-align: center;
+  color: white;
+  padding-top: 70px;
+}
+.wert:hover .helloworld {
+  top: 0px;
+  opacity: 1;
+}
+.gree {
+  width: 100px;
+  height: 75px;
+  background-color: white;
+  border: none;
+  border: 3px solid green;
+  border-radius: 5px;
+  transition: 3s;
+}
+.gree:hover {
+  background-color: green;
+  color: white;
+}
+.shadow {
+  border: none;
+  width: 200px;
+  height: 80px;
+  color: white;
+  background-color: rgb(15, 149, 15);
+  opacity: 0.3;
+}
+.shadow:hover {
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.4),
+    0px 8px 15px 0px rgba(0, 0, 0, 0.4);
+}
+.pagination {
+  text-align: center;
+  padding-top: 25px;
+}
+.pagination div {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+.pagination .on {
+  background-color: #ff0000;
+  color: white;
+}
+.pagination div:hover:not(.on) {
+  background-color: grey;
+  color: white;
+  border-radius: 5px;
+}
+.hlll {
+  margin-bottom: 25px;
+}
+.hlll a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid #ddd;
+  float: left;
+  padding: 8px 10px;
+}
+.hlll a:not(.link3) {
+  border-right: none;
+}
+.hlll a.home {
+  background-color: green;
+  color: white;
+}
+.hlll a:hover:not(.home) {
+  background-color: grey;
+}
+.vnav {
+  background-color: lightgrey;
+  width: 80%;
+  margin-bottom: 25px;
+}
+
+.vnav a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 10px;
+}
+.vnav a.ho {
+  background-color: green;
+  color: white;
+}
+.vnav1 {
+  background-color: black;
+  width: 80%;
+  position: relative;
+  margin-bottom: 25px;
+}
+.vnav1 a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+}
+.vnav1 a.ho1 {
+  background-color: green;
+}
+.vnav1 a.ab1 {
+  position: absolute;
+  right: 0;
+}
+.vnav2 {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 80%;
+  position: relative;
+  margin-bottom: 10px;
+}
+.vnav2 a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 10px;
+}
+.vnav2 a.co2 {
+  background-color: rgb(54, 129, 228);
+}
+.vnav2 a.ab2 {
+  position: absolute;
+  right: 0;
+}
+.vnav3 {
+  width: 40%;
+  margin-bottom: 25px;
+}
+.vnav3 a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
+.vnav3 a:not(.ab3) {
+  border-bottom: none;
+}
+.vnav3 a:not(.ho3) {
+  background-color: #ddd;
+}
+.vnav3 a.ho3 {
+  background-color: rgb(10, 92, 10);
+  color: white;
+}
+.sidebar {
+  width: 80%;
+  height: 200px;
+  border: 5px solid lightgrey;
+  margin-bottom: 25px;
+}
+.sidebar .vnav4 {
+  float: left;
+  width: 30%;
+  height: 200px;
+}
+.sidebar .fhsn {
+  float: left;
+  width: 60%;
+  height: 200px;
+  overflow-y: scroll;
+  padding-left: 45px;
+}
+.vnav4 {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.vnav4 a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 10px;
+}
+.vnav4 a.ho4 {
+  background-color: green;
+  color: white;
+}
+.vnav4 a:hover:not(.ho4) {
+  background-color: black;
+  color: white;
+}
+.ftnav {
+  width: 80%;
+  height: 200px;
+  position: relative;
+  margin-bottom: 25px;
+}
+.vnav5 {
+  background-color: black;
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+}
+.vnav5 a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 15px;
+}
+.vnav5 a.ho5 {
+  background-color: green;
+}
+.scrnav {
+  width: 80%;
+  height: 200px;
+  overflow-y: auto;
+  background-color: rgb(3, 80, 48);
+}
+.lkj {
+  padding: 10px;
+}
+.dropdown {
+  background-color: black;
+  width: 60%;
+  margin-bottom: 30px;
+}
+.dropdown a {
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+.drpd {
+  display: inline-block;
+}
+.links {
+  position: absolute;
+  min-width: 160px;
+  background-color: #f9f9f9;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+.links a {
+  color: black;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  padding: 12px 16px;
+}
+
+.ho6:hover,
+.ne6:hover,
+.co6:hover {
+  background-color: red;
+}
+.drpd:hover .links {
+  display: block;
+}
+.links a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.dpdwn {
+  background-color: rgb(21, 97, 21);
+  width: 80%;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.dpdwn a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 16px;
+}
+.bllinks {
+  position: absolute;
+  width: 80%;
+  background-color: #f9f9f9;
+  z-index: 1;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+.bllinks a {
+  display: block;
+  color: black;
+  text-align: left;
+}
+.dpdwn:hover .bllinks {
+  display: block;
+}
+.ttdiv {
+  width: 80%;
+}
+.rlddcn {
+  float: left;
+}
+.llddcn {
+  float: right;
+}
+.lft {
+  width: 100%;
+  background-color: rgb(12, 90, 12);
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+}
+.lft a {
+  text-decoration: none;
+  color: white;
+}
+.lftlinks {
+  min-width: 100px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  position: absolute;
+  background-color: #f9f9f9;
+  display: none;
+}
+.lftlinks a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+.llddcn:hover .lftlinks {
+  display: block;
+}
+.rlddcn:hover .lftlinks {
+  display: block;
+}
+.ttdiv::after {
+  clear: both;
+  display: table;
+  content: "";
+  margin-bottom: 25px;
+}
+.impdpdn {
+  width: 80%;
+  background-color: rgba(11, 2, 19, 0.698);
+  margin-bottom: 25px;
+}
+.impdpdn a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+}
+.impddn {
+  display: inline-block;
+}
+.implink {
+  position: absolute;
+  min-width: 120px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #f9f9f9;
+  display: none;
+}
+.implink a {
+  display: block;
+  color: black;
+}
+
+.he:hover,
+.ns:hover,
+.dn:hover {
+  background-color: red;
+}
+.impddn:hover .implink {
+  display: block;
+}
+.implink a:hover {
+  background-color: grey;
+  color: white;
+}
+.omeink a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  float: left;
+  padding: 10px;
+}
+.omeink a:not(.knil3) {
+  border-right: none;
+}
+.omeink a.emoh {
+  background-color: rgb(15, 214, 15);
+  color: white;
+}
+.omeink::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.omeink {
+  margin-bottom: 15px;
+}
+.omeink1 a:not(.knil31) {
+  color: green;
+  text-decoration: none;
+}
+.knil31 {
+  text-decoration: none;
+}
+.omeink1 a:not(.emoh1)::before {
+  content: "/";
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+}
+.omeink1 {
+  margin-bottom: 15px;
+}
+.columnsss {
+  column-count: 3;
+  column-gap: 105px;
+  column-rule-width: 10px;
+  column-rule-style: solid;
+  column-rule: 10px solid green;
+  margin-bottom: 10px;
+}
+.resiz {
+  border: 2px solid black;
+  outline: 2px solid green;
+  outline-offset: 10px;
+  width: 300px;
+  resize: horizontal;
+  overflow: auto;
+  margin-bottom: 50px;
+}
+/*Global variable*/
+:root {
+  --darkfade: #f9f9f9;
+  --fade: rgba(0, 0, 0, 0.6);
+}
+.rtfde {
+  width: 300px;
+  background-color: var(--darkfade);
+  padding: 10px;
+  --blue: red; /*New local variable*/
+  border: 10px solid var(--blue);
+  --fade: #245678; /*overriding global variable*/
+  color: var(--fade);
+  margin-bottom: 25px;
+}
+.fxbox {
+  display: flex;
+  background-color: royalblue;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.fxbox > div {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-size: 30px;
+  margin: 10px;
+  width: 150px;
+}
+.project {
+  margin-bottom: 15px;
+}
+.project header {
+  font-weight: bold;
+  background-color: yellow;
+  padding: 25px;
+  text-align: center;
+}
+.project .website {
+  background-color: rgb(4, 155, 36);
+  padding: 25px;
+  color: white;
+  text-align: center;
+}
+.project nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+.project nav a {
+  display: block;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+.project .imagehj {
+  background-color: rgb(120, 120, 120);
+  height: 200px;
+  margin: 25px;
+}
+.project .imgnv {
+  padding: 10px 15px;
+}
+.project .mt {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.project .imgcont a {
+  display: block;
+  background-color: rgb(180, 180, 180);
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+}
+.project .imgcont a:not(.inotm) {
+  margin-bottom: 15px;
+}
+.project footer {
+  background-color: indigo;
+  padding: 25px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+}
+.flexbox1 {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+.flexbox1 div {
+  background-color: dodgerblue;
+  flex: 12.5%;
+  margin: 15px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.griditem {
+  display: grid;
+  background-color: dodgerblue;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-gap: 10px 20px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.griditem header {
+  background-color: floralwhite;
+  font-size: 25px;
+  grid-area: 1/1/2/4;
+}
+.griditem div {
+  background-color: floralwhite;
+  font-size: 25px;
+  grid-area: 2/1/4/2;
+}
+.griditem main {
+  background-color: floralwhite;
+  font-size: 25px;
+  grid-area: 2/2/3/3;
+}
+.griditem aside {
+  background-color: floralwhite;
+  font-size: 25px;
+  grid-area: 2/3/3/4;
+}
+.griditem footer {
+  background-color: floralwhite;
+  font-size: 25px;
+  grid-area: 3/2/4/4;
+}
+.griditem1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  background-color: dodgerblue;
+  padding: 10px;
+  grid-gap: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+.griditem1 header {
+  grid-area: 1/1/2/3;
+  background-color: floralwhite;
+}
+.griditem1 div {
+  grid-area: 1/3/3/4;
+  background-color: floralwhite;
+}
+.griditem1 main {
+  grid-area: 2/1/3/2;
+  background-color: floralwhite;
+}
+.griditem1 aside {
+  grid-area: 2/2/3/3;
+  background-color: floralwhite;
+}
+.griditem1 footer {
+  grid-area: 3/1/4/4;
+  background-color: floralwhite;
+}
+.tryitbut {
+  margin-left: 10px;
+}
+.cme {
+  border-radius: 25px;
+  border: none;
+  border: 1px solid black;
+}
+
+#demo1 {
+  margin-bottom: 10px;
+}
